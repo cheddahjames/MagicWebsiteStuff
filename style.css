@@ -63,8 +63,21 @@ body{
     display: none;
 }
 .my-header {
+    width: 100%;                
     background-color: white;
-    color: black; 
-    padding: 1rem; 
+    padding: 1rem 0;            
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.my-header .container {
+    max-width: 1200px;          
+    margin: 0 auto;             
+    padding: 0 1rem;            
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
