@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "Do you like to read (not just books)?",
+    question: "Do you like to read?",
     answers: [
       { text: "I need pictures along with it", trait: "W" }, // White
       { text: "If you don't read you are an imbecile", trait: "U" }, // Blue
@@ -10,23 +10,103 @@ const questions = [
     ],
   },
   {
-    question: "Pick your vacation spot",
+    question: "Which playstyle do you lean towards?",
     answers: [
-      { text: "Prison", trait: "W" },
-      { text: "Tsunami", trait: "U" },
-      { text: "Hell", trait: "B" },
-      { text: "Volcano", trait: "R" },
-      { text: "Surrounded by bloodthirsy apes", trait: "G" },
+      { text: "Enchantments and artifacts are cool", trait: "W" },
+      { text: "I want to control the game", trait: "U" },
+      { text: "A long combo to end the game", trait: "B" },
+      { text: "Do as much damage as possible to everyone", trait: "R" },
+      { text: "Big stompy creatures", trait: "G" },
     ],
   },
   {
-    question: "What do you value most?",
+    question: "When was the last time you touched grass?",
     answers: [
-      { text: "Injustice", trait: "W" },
-      { text: "Sarcasm", trait: "U" },
-      { text: "Selfishness", trait: "B" },
-      { text: "Greed", trait: "R" },
-      { text: "Pride", trait: "G" },
+      { text: "Past Month", trait: "W" },
+      { text: "What is grass?", trait: "U" },
+      { text: "Past Year", trait: "B" },
+      { text: "Past Week", trait: "R" },
+      { text: "Today", trait: "G" },
+    ],
+  },
+  {
+    question: "Which mythical creature do you like the most?",
+    answers: [
+      { text: "Unicorn", trait: "W" },
+      { text: "Lochness Monster", trait: "U" },
+      { text: "Duende", trait: "B" },
+      { text: "Dragon", trait: "R" },
+      { text: "Hydra", trait: "G" },
+    ],
+  },
+  {
+    question: "How many friends do you have?",
+    answers: [
+      { text: "Sigma", trait: "U" },
+      { text: "1-2", trait: "B" },
+      { text: "3-5", trait: "W" },
+      { text: "6-7", trait: "R" },
+      { text: "Plenty", trait: "G" },
+    ],
+  },
+  {
+    question: "How do you handle conflict?",
+    answers: [
+      { text: "Diplomatic", trait: "W" },
+      { text: "Run Away", trait: "U" },
+      { text: "Murder", trait: "B" },
+      { text: "Fight", trait: "R" },
+      { text: "De-escalate", trait: "G" },
+    ],
+  },
+  {
+    question: "Which job would you choose?",
+    answers: [
+      { text: "Police Officer", trait: "W" },
+      { text: "Librarian", trait: "U" },
+      { text: "CEO", trait: "B" },
+      { text: "Artist", trait: "R" },
+      { text: "Park Ranger", trait: "G" },
+    ],
+  },
+  {
+    question: "Who is the basketball goat?",
+    answers: [
+      { text: "Micheal Jordan", trait: "W" },
+      { text: "I don't watch sportsball", trait: "U" },
+      { text: "Caitlyn Clark", trait: "B" },
+      { text: "Kobe Bryant", trait: "R" },
+      { text: "Lebron James", trait: "G" },
+    ],
+  },
+  {
+    question: "Which youtuber do you like the most?",
+    answers: [
+      { text: "Tolerian Community College", trait: "W" },
+      { text: "Covet Go Blue", trait: "U" },
+      { text: "Commander Quarter's", trait: "B" },
+      { text: "MoistCritikal", trait: "R" },
+      { text: "Nitpicky Nerds", trait: "G" },
+    ],
+  },
+  {
+    question: "Which video game genre do you like the most?",
+    answers: [
+      { text: "Simulators", trait: "W" },
+      { text: "MMOs", trait: "U" },
+      { text: "Horror", trait: "B" },
+      { text: "FPS", trait: "R" },
+      { text: "RPG", trait: "G" },
+    ],
+  },
+  {
+    question: "How do you feel about interaction(Removal spells)?",
+    answers: [
+      { text: "Remove everything thats a problem", trait: "W" },
+      { text: "I live in the stack", trait: "U" },
+      { text: "I'm usually destroying my own stuff", trait: "B" },
+      { text: "Having interaction must be nice", trait: "R" },
+      { text: "I just want to protect my big creatures", trait: "G" },
     ],
   },
 ];
@@ -115,3 +195,4 @@ function showResult() {
 }
 
 startQuiz();
+
